@@ -3,6 +3,6 @@
    become: true
    tasks:
      - file:
-         path: "/home/slave2/sai"
+         path: "/home/slave2/sai1"
          state: directory
          mode: 0777
