@@ -1,0 +1,8 @@
+---
+ - hosts: slave2
+   become: true
+   tasks:
+     - file:
+         path: "/home/slave2/sai"
+         state: directory
+         mode: 0777
