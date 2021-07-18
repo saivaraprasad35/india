@@ -2,4 +2,4 @@
  - hosts: slave1
    become: true
    tasks:
-     - ping
+     - ping:
